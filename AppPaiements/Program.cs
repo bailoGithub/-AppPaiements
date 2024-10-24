@@ -13,6 +13,13 @@ internal class Program
         achatN2.AfficherDetails();
         achatN3.AfficherDetails();
 
+        Paypal paiementN1 = new Paypal (75.00, "Paiement des fourniture de la compta", "bailo@gmail.com");
+        Paypal paiementN2 = new Paypal (30.50, "Paiement du livre de programmation", "oumarou@ahoo.fr");
+
+       
+        paiementN1.AfficherDetails();
+        paiementN2.AfficherDetails();
+
 
     }
 }
